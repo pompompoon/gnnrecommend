@@ -2,7 +2,8 @@
 
 ヘテロジニアス Graph Neural Network (GAT v2) を用いたファッションアイテムの推薦システム。  
 ユーザーの行動履歴（購入・閲覧・お気に入り）とカテゴリ階層構造をグラフとしてモデリングし、
-BPR (Bayesian Personalized Ranking) で学習する。
+BPR (Bayesian Personalized Ranking) で学習する。BPR は損失関数である。
+「ユーザー u が、購入したアイテム i を未購入のアイテム j よりも好む」というペアワイズの仮定のもとで最適化する。
 
 ## アーキテクチャ
 
