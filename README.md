@@ -94,3 +94,6 @@ python main.py --save-recommendations
     ├── ファッションジュエリー
     └── ハット
 ```
+# 可視化
+
+<img width="1077" height="769" alt="image" src="https://github.com/user-attachments/assets/f22c5bdd-a537-453e-8271-b42d28687b3f" />
